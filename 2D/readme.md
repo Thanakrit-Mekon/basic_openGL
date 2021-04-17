@@ -29,7 +29,7 @@ drawSampleTriangle();
 the combination of line and vertices and the changing of phase
 
 ```shell
-drawSampleSinusoid(phaseShift);\n
+drawSampleSinusoid(phaseShift);
 phaseShift += 0.001f;
 ```
 https://user-images.githubusercontent.com/65077907/115064037-a027ec80-9f16-11eb-9b87-545632a82d6a.mp4
