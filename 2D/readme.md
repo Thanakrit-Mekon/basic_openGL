@@ -2,7 +2,6 @@
 
 ### Vertices primitive
 this function call a GL_POINTS primitive by giving colors RGBA, coordinates (x ,y ,z) and vertices size.
-GL_POINTS
 
 ```shell
 drawsamplePoint(1, 1);
@@ -11,15 +10,14 @@ drawsamplePoint(1, 1);
 
 ### Lines primitive
 this function call a GL_LINES primitive by giving each vertice a colors RGBA, 2 coordinates (x1 ,y1 ,z1) (x2, y2, z2) and vertices size.
-GL_LINES
 ```shell
 drawSampleLine();
 ```
 ![openGL_sample_line_result](https://user-images.githubusercontent.com/65077907/115064026-99997500-9f16-11eb-891c-875fea78aa97.png)
 
 ### Triangle primitive
-Triangle primitive are likely to both primitives but 3 coordinates
-GL_TRIANGLES
+Triangle primitive are likely to both primitives above but with 3 vertices, this function call GL_TRIANGLES primitive
+
 ```shell
 drawSampleTriangle();
 ```
