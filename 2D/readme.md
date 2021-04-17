@@ -1,4 +1,6 @@
 # Result
+these result are represent in orthographic projection.
+
 
 ### Vertices primitive
 this function call a GL_POINTS primitive by giving colors RGBA, coordinates (x ,y ,z) and vertices size.
