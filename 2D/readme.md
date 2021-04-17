@@ -26,6 +26,7 @@ drawSampleTriangle();
 ![openGL_sample_triangle_result](https://user-images.githubusercontent.com/65077907/115064032-9c946580-9f16-11eb-8a7b-3dacf495c59d.png)
 
 ### Plot streaming data
+the combination of line and vertices and the changing of phase
 
 ```shell
 drawSampleSinusoid(phaseShift);\n
@@ -33,7 +34,8 @@ phaseShift += 0.001f;
 ```
 https://user-images.githubusercontent.com/65077907/115064037-a027ec80-9f16-11eb-9b87-545632a82d6a.mp4
 
-### represent 3D data in 2D
+### Represent 3D data in 2D
+represent heatmap in 2D and changing in time domain.
 
 ```shell
 drawGrid(5.0f, 1.0f, 0.1f);
